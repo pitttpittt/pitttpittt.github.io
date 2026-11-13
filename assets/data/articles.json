@@ -1,0 +1,56 @@
+[
+ {
+  "slug": "accelerer-site-wordpress",
+  "title": "5 réglages pour accélérer un site WordPress",
+  "date": "2026-11-02",
+  "tags": [
+   "WordPress",
+   "Performance"
+  ],
+  "excerpt": "Images, vidéos d’arrière-plan, extensions inutiles : les causes de lenteur les plus fréquentes et comment les corriger.",
+  "body": "Un site lent fait fuir les visiteurs, surtout sur mobile. Voici les réglages que je vérifie en premier.\n\n## 1. Les vidéos en arrière-plan\nUne vidéo YouTube lancée automatiquement dans un diaporama peut peser plusieurs mégaoctets. Une **image bien compressée** fait souvent le même effet visuel pour une fraction du poids.\n\n## 2. Les images\n- Redimensionner à la taille d’affichage réelle\n- Utiliser le format WebP ou AVIF\n- Activer le chargement différé (`loading=\"lazy\"`)\n\n## 3. Les extensions\nChaque extension peut ajouter ses scripts sur **toutes** les pages. Supprimez celles qui ne servent plus, et chargez les autres seulement là où elles sont utiles.\n\n## 4. Le cache\nUn cache de pages (WP Super Cache, W3 Total Cache…) et un CDN bien configuré réduisent le temps de réponse.\n\n## 5. Mesurer avant et après\nLancez *Lighthouse* ou *PageSpeed Insights* avant toute modification, puis après. Sans mesure, impossible de savoir ce qui a vraiment aidé."
+ },
+ {
+  "slug": "meta-description",
+  "title": "Meta description : la ligne que Google affiche sous votre titre",
+  "date": "2026-10-20",
+  "tags": [
+   "SEO"
+  ],
+  "excerpt": "Une meta description unique par page aide les internautes à choisir votre résultat plutôt qu’un autre.",
+  "body": "La meta description est le petit texte qui apparaît sous le titre dans les résultats de recherche.\n\n## Pourquoi c’est important\nElle ne fait pas directement monter un site dans Google, mais elle **donne envie de cliquer**. Sans elle, Google choisit un extrait au hasard dans la page.\n\n## Comment bien l’écrire\n- Une description **unique** par page\n- Environ 150 caractères\n- Le service, la ville, et une raison de cliquer\n\n```\n<meta name=\"description\" content=\"Bar à fromages à Saint-Berthevin : planches, vins et épicerie fine. Ouvert du lundi au samedi.\">\n```\n\nSur WordPress, une extension SEO comme Yoast ou Rank Math permet de la remplir page par page."
+ },
+ {
+  "slug": "automatiser-devis",
+  "title": "Automatiser ses demandes de devis sans coder",
+  "date": "2026-10-08",
+  "tags": [
+   "Automatisation"
+  ],
+  "excerpt": "Formulaire, tableur, e-mail de confirmation : un circuit simple qui évite les oublis.",
+  "body": "Beaucoup de petites entreprises reçoivent leurs demandes de devis par e-mail et les traitent à la main. Un circuit automatique évite d’en perdre.\n\n## Le circuit type\n1. Le client remplit un formulaire sur le site\n2. La demande s’ajoute à un tableur (Google Sheets, Airtable…)\n3. Le client reçoit un e-mail de confirmation\n4. Vous recevez une alerte avec les informations utiles\n\n## Avec quels outils ?\nMake, Zapier ou n8n relient ces étapes sans écrire de code. Pour des besoins plus spécifiques, un petit script maison fait le même travail.\n\n## Ce qu’on gagne\nMoins de copier-coller, des demandes centralisées, et des clients rassurés par une réponse immédiate."
+ },
+ {
+  "slug": "laravel-ou-wordpress",
+  "title": "Laravel ou WordPress : que choisir pour votre projet ?",
+  "date": "2026-09-25",
+  "tags": [
+   "Laravel",
+   "WordPress"
+  ],
+  "excerpt": "Site vitrine ou application métier ? Le bon outil dépend de ce que vous voulez faire.",
+  "body": "On me pose souvent la question. La réponse dépend du projet.\n\n## WordPress pour…\n- Les sites vitrines et les blogs\n- Les boutiques simples (WooCommerce)\n- Les sites que vous voulez modifier vous-même\n\n## Laravel pour…\n- Les applications sur mesure : caisse, réservation, espace client\n- Les règles métier complexes\n- Les interfaces avec d’autres logiciels (API)\n\n## En résumé\nSi votre besoin ressemble à « publier des pages », WordPress suffit. S’il ressemble à « gérer des données et des règles », Laravel est plus adapté."
+ },
+ {
+  "slug": "checklist-mise-en-ligne",
+  "title": "Checklist avant de mettre un site en ligne",
+  "date": "2026-09-10",
+  "tags": [
+   "SEO",
+   "WordPress",
+   "Performance"
+  ],
+  "excerpt": "Les points à vérifier pour éviter les mauvaises surprises le jour du lancement.",
+  "body": "Avant de publier un site, je passe toujours cette liste en revue.\n\n## Contenu\n- Fautes relues, pages vides supprimées\n- Mentions légales et politique de confidentialité\n\n## Technique\n- HTTPS actif et redirection depuis http\n- Formulaires testés (le message arrive bien)\n- Sitemap envoyé à Google Search Console\n\n## Mobile\n- Téléphone **cliquable** (`tel:`)\n- Textes lisibles sans zoomer\n- Boutons assez grands pour le doigt\n\n## Mesure\nUn passage dans *Lighthouse* pour vérifier performance, accessibilité et SEO."
+ }
+]
