@@ -58,3 +58,11 @@ footer.foot{background:var(--bg);color:#94a3b8;padding:40px 0;font-size:.9rem}fo
 .qty{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:8px}.qty button{border:0;background:none;width:30px;height:30px;cursor:pointer;font-size:1rem}.qty span{min-width:24px;text-align:center}
 .status{font-size:.75rem;font-weight:700;padding:3px 8px;border-radius:99px}.status.todo{background:#e0e7ff;color:#3730a3}.status.doing{background:#fef3c7;color:#92400e}.status.done{background:#d1fae5;color:#065f46}
 .chart-box{position:relative;height:260px}
+
+/* montage video */
+.video-demo{display:grid;grid-template-columns:1.1fr minmax(220px,360px);gap:36px;align-items:start}
+@media(max-width:860px){.video-demo{grid-template-columns:1fr}}
+.video-frame{width:100%;max-width:360px;margin:0 auto}
+.video-vert{width:100%;aspect-ratio:9/16;height:auto;border-radius:var(--r);background:#000;box-shadow:var(--sh);border:1px solid var(--line);display:block}
+.credit{font-size:.82rem;color:var(--muted);margin:10px 0 0;text-align:center;line-height:1.45}
+.credit a{color:var(--acc)}
