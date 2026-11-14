@@ -17,6 +17,14 @@ jobs:
       - name: Extract bundle
         run: |
           if [ -d _bundle ]; then
+            if [ -f _bundle/EXPECTED ]; then
+              expected=$(tr -d '[:space:]' < _bundle/EXPECTED)
+              actual=$(ls _bundle/part* 2>/dev/null | wc -l)
+              if [ "$actual" -lt "$expected" ]; then
+                echo "Paquet incomplet ($actual/$expected), extraction reportée."
+                exit 0
+              fi
+            fi
             cat _bundle/part* | base64 -d > /tmp/site.tgz
             tar xzf /tmp/site.tgz -C .
             git rm -rq _bundle
