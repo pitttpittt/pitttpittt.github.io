@@ -14,7 +14,7 @@ $("#b-tags").innerHTML=tags.map(function(t){return'<button type="button" class="
 var L=A.filter(function(a){return(tag==="Tous"||a.tags.indexOf(tag)>-1)&&(!q||(a.title+" "+a.excerpt+" "+a.body).toLowerCase().indexOf(q)>-1)});
 $("#b-posts").innerHTML=L.map(function(a){return'<a class="card link" href="?article='+a.slug+'"><span class="small muted">'+fdate(a.date)+'</span><h3 style="margin-top:6px">'+esc(a.title)+'</h3><p class="muted small">'+esc(a.excerpt)+'</p><div style="margin-top:auto">'+a.tags.map(function(t){return'<span class="tag">'+t+'</span>'}).join("")+'</div></a>'}).join("");$("#b-empty").hidden=L.length>0}
 function route(){var slug=new URLSearchParams(location.search).get("article"),a=A.filter(function(x){return x.slug===slug})[0];
-if(a){$("#b-list").hidden=true;$("#b-article").hidden=false;$("#b-title").textContent=a.title;$("#b-lead").textContent=fdate(a.date)+" · "+a.tags.join(", ");document.title=a.title+" — Démo blog | Peter Philippot";
+if(a){$("#b-list").hidden=true;$("#b-article").hidden=false;$("#b-title").textContent=a.title;$("#b-lead").textContent=fdate(a.date)+" · "+a.tags.join(", ");document.title=a.title+" — Démo blog | PPIT";
 $("#b-article").innerHTML='<p><a href="blog.html">← Tous les articles</a></p>'+md(a.body)+'<p class="small muted" style="margin-top:30px">Article d’exemple publié sur un blog de démonstration.</p>';window.scrollTo(0,0)}
 else{$("#b-list").hidden=false;$("#b-article").hidden=true;renderList()}}
 $("#b-tags").addEventListener("click",function(e){var t=e.target.getAttribute("data-t");if(t){tag=t;renderList()}});$("#b-q").addEventListener("input",renderList);

@@ -1,6 +1,6 @@
 (function(){
 var M=[
-{n:"Planche de fromages affinés",d:"Cinq fromages de saison, confiture de figue, pain au levain",p:16.5,c:"Entrées",v:1,g:0},
+{n:"Planche de saison",d:"Cinq produits de saison, confiture de figue, pain au levain",p:16.5,c:"Entrées",v:1,g:0},
 {n:"Velouté de potimarron",d:"Crème crue, graines de courge torréfiées",p:8,c:"Entrées",v:1,g:1},
 {n:"Œuf parfait",d:"Crème de champignons, croûtons, ciboulette",p:9.5,c:"Entrées",v:1,g:0},
 {n:"Tartare de bœuf au couteau",d:"Câpres, échalote, frites maison",p:19,c:"Plats",v:0,g:1},
@@ -9,7 +9,7 @@ var M=[
 {n:"Burger fermier",d:"Cheddar affiné, oignons confits, frites",p:17.5,c:"Plats",v:0,g:0},
 {n:"Moelleux au chocolat",d:"Cœur coulant, glace vanille",p:8.5,c:"Desserts",v:1,g:0},
 {n:"Crème brûlée à la vanille",d:"Vanille de Madagascar",p:7.5,c:"Desserts",v:1,g:1},
-{n:"Assiette de fromages",d:"Trois fromages, salade de mesclun",p:9,c:"Desserts",v:1,g:1},
+{n:"Assiette de saison",d:"Sélection du moment, salade de mesclun",p:9,c:"Desserts",v:1,g:1},
 {n:"Limonade artisanale",d:"Citron, gingembre",p:4.5,c:"Boissons",v:1,g:1},
 {n:"Verre de vin du moment",d:"Sélection du sommelier, 12 cl",p:6,c:"Boissons",v:1,g:1}];
 var cats=["Tout","Entrées","Plats","Desserts","Boissons"],cur="Tout";

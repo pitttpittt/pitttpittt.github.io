@@ -18,7 +18,7 @@
    "SEO"
   ],
   "excerpt": "Une meta description unique par page aide les internautes à choisir votre résultat plutôt qu’un autre.",
-  "body": "La meta description est le petit texte qui apparaît sous le titre dans les résultats de recherche.\n\n## Pourquoi c’est important\nElle ne fait pas directement monter un site dans Google, mais elle **donne envie de cliquer**. Sans elle, Google choisit un extrait au hasard dans la page.\n\n## Comment bien l’écrire\n- Une description **unique** par page\n- Environ 150 caractères\n- Le service, la ville, et une raison de cliquer\n\n```\n<meta name=\"description\" content=\"Bar à fromages à Saint-Berthevin : planches, vins et épicerie fine. Ouvert du lundi au samedi.\">\n```\n\nSur WordPress, une extension SEO comme Yoast ou Rank Math permet de la remplir page par page."
+  "body": "La meta description est le petit texte qui apparaît sous le titre dans les résultats de recherche.\n\n## Pourquoi c’est important\nElle ne fait pas directement monter un site dans Google, mais elle **donne envie de cliquer**. Sans elle, Google choisit un extrait au hasard dans la page.\n\n## Comment bien l’écrire\n- Une description **unique** par page\n- Environ 150 caractères\n- Le service, la ville, et une raison de cliquer\n\n```\n<meta name=\"description\" content=\"Restaurant de saison : carte, réservation en ligne et menu du jour. Ouvert du mardi au dimanche.\">\n```\n\nSur WordPress, une extension SEO comme Yoast ou Rank Math permet de la remplir page par page."
  },
  {
   "slug": "automatiser-devis",

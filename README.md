@@ -1,2 +1,2 @@
-# pitttpittt.github.io
-Site vitrine freelance de Peter Philippot : démos fonctionnelles et réalisations
+# PPIT
+Portfolio : montage vidéo, design graphique et sites WordPress.
